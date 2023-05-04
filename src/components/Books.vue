@@ -51,7 +51,7 @@
       </div>
     </div>
 
-    <!-- add new book modal -->
+    <!-- Modal de adicionar livros -->
     <div
       ref="addBookModal"
       class="modal fade"
@@ -120,7 +120,7 @@
     </div>
     <div v-if="activeAddBookModal" class="modal-backdrop fade show"></div>
 
-    <!-- edit book modal -->
+    <!-- Modal de editar livros -->
     <div
       ref="editBookModal"
       class="modal fade"
@@ -258,7 +258,7 @@ export default {
       const payload = {
         title: this.addBookForm.title,
         author: this.addBookForm.author,
-        read, // property shorthand
+        read,
       };
       this.addBook(payload);
       this.initForm();
@@ -269,7 +269,7 @@ export default {
     handleEditCancel() {
       this.toggleEditBookModal(null);
       this.initForm();
-      this.getBooks(); // why?
+      this.getBooks();
     },
     handleEditSubmit() {
       this.toggleEditBookModal(null);
