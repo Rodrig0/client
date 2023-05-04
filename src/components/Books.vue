@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-10">
-        <h1>Books</h1>
+        <h1>Lista de leitura</h1>
         <hr><br><br>
         <alert :message=message v-if="showMessage"></alert>
         <button
