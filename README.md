@@ -5,10 +5,10 @@ Para visualizar a aplicação web, é preciso inicilizar o servidor de desenvovl
 npm run dev
 ```
 
-Caso necessário, instale rode o comando abaixo antes de executar "npm run dev":
+Caso necessário, rode o comando abaixo antes de executar "npm run dev":
 
 ```
-npm run dev
+npm install
 ```
 
 O site ficará disponível no endereço abaixo ou no mostrado no terminal caso este esteja em uso:
