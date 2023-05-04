@@ -35,13 +35,13 @@
                     type="button"
                     class="btn btn-warning btn-sm"
                     @click="toggleEditBookModal(book)">
-                    Update
+                    Editar
                   </button>
                   <button
                     type="button"
                     class="btn btn-danger btn-sm"
                     @click="handleDeleteBook(book)">
-                    Delete
+                    Apagar
                   </button>
                 </div>
               </td>
@@ -104,13 +104,13 @@
                   type="button"
                   class="btn btn-primary btn-sm"
                   @click="handleAddSubmit">
-                  Submit
+                  Enviar
                 </button>
                 <button
                   type="button"
                   class="btn btn-danger btn-sm"
                   @click="handleAddReset">
-                  Reset
+                  Resetar
                 </button>
               </div>
             </form>
