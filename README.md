@@ -17,4 +17,4 @@ O site ficará disponível no endereço abaixo ou na URL apresentada no terminal
 http://localhost:5173/
 ```
 
-Executar também, em outro terminal, os passos descritos no readme do backend (server) para conectar ao bando de dados.
+Executar também, em outro terminal, os passos descritos no readme do backend (server) para conectar ao banco de dados e a API.
