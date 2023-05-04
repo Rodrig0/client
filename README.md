@@ -1,29 +1,19 @@
-# client
 
-This template should help get you started developing with Vue 3 in Vite.
+Para visualizar a aplicação web, é preciso inicilizar o servidor de desenvovlimento do aplicatiovo com o comando abaixo:
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
 ```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+Caso necessário, instale rode o comando abaixo antes de executar "npm run dev":
 
-```sh
-npm run build
 ```
+npm run dev
+```
+
+O site ficará disponível no endereço abaixo ou no mostrado no terminal caso este esteja em uso:
+
+```
+http://localhost:5173/
+```
+
